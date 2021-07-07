@@ -1,0 +1,13 @@
+{application, basic, [
+    {description, "Basic Rust NIF example"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []},
+    {modules, []},
+    {maintainers, ["Paul J. Davis"]},
+    {licenses, ["MIT"]}
+]}.
