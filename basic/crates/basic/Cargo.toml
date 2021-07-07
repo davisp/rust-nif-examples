@@ -11,4 +11,5 @@ name = "basic"
 crate-type = ["dylib"]
 
 [dependencies]
-rustler = {git = "git://github.com/rusterlium/rustler.git", branch="master"}
+rustler = "0.22.0-rc.1"
+lazy_static = "1.2.0"
