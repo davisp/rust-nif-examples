@@ -1,4 +1,5 @@
 _build/
+priv/crates/
 Cargo.lock
 rebar.lock
 rebar3.crashdump
