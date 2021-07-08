@@ -39,7 +39,7 @@ pub fn on_load(env: Env, _load_info: Term) -> bool {
 }
 
 async fn do_things(co: Co<i32, i32>) -> i32 {
-    let mut curr = co.yield_(0).await;
+    let mut curr = 0;
     loop {
         curr = co.yield_(curr).await;
         if curr > 100 {
