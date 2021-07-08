@@ -1,0 +1,6 @@
+_build/
+priv/crates/
+src/cargo.hrl
+Cargo.lock
+rebar.lock
+rebar3.crashdump

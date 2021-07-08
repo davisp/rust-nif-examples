@@ -1,0 +1,13 @@
+{application, simple_async, [
+    {description, "Simple async Rust NIF example"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []},
+    {modules, []},
+    {maintainers, ["Paul J. Davis"]},
+    {licenses, ["MIT"]}
+]}.

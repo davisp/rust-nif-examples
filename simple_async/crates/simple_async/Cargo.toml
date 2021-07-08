@@ -1,0 +1,16 @@
+[package]
+name = "simple_async"
+version = "0.1.0"
+authors = ["Paul J. Davis <paul.joseph.davis@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "simple_async"
+crate-type = ["dylib"]
+
+[dependencies]
+rustler = "0.22.0-rc.1"
+lazy_static = "1.2.0"
+genawaiter = "0.99.1"
