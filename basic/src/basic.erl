@@ -19,8 +19,8 @@ init() ->
         Path ->
             Path
     end,
-    LibDir = filename:join(PrivDir, "crates/basic/0.1.0/debug"),
-    erlang:load_nif(filename:join(LibDir, "libbasic"), 0).
+    LibDir = filename:join(PrivDir, "crates/basic"),
+    erlang:load_nif(filename:join(LibDir, "basic"), 0).
 
 
 not_loaded(Line) ->
